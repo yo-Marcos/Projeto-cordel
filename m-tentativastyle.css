@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'passion-one';
+    src: url('font/Passion_One/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family:'sriracha';
+    src: url('font/Sriracha/Sriracha-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+    min-height: 100vh;
+}
+
+.sobreposto{
+    background-color: white;
+    margin:0px;
+    padding:30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.788);
+    font-size: 50px;
+}
+.abaixo{
+    color:white;
+    font-size: 35px;
+    padding-bottom: 0px;
+    padding: 10px;
+    text-shadow: 1px 2px 0px black;
+}
+
+div.abaixo>p{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 50px ;
+    padding: 10px;
+    font-size: 4vw;
+}
+
+.imagem1{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+.imagem2{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'passion-one';
+    font-size: 10vw;
+    padding-top: 60px;
+    font-variant: small-caps;
+}
+header > p{
+    font-family:Verdana;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+div > p {
+    font-family:'sriracha';
+    margin-bottom:60px;
+    font-size: 5vw;
+}
+
+footer{
+    background-color:black;
+    color:white ;
+    text-align: center;
+    font-family:Verdana;
+    padding: 10px;
+}
